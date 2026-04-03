@@ -1,0 +1,13 @@
+Description: This project uses PyGame to simulate an 
+n-body simulation, utilizing vectorized calculations of 
+forces. There are two methods of integration currently 
+implemented: Verlet integration and Euler integration. 
+This program also includes toggleable collision detection, 
+as well as energy tracking. 
+
+
+Known Limitations: The simulation exhibits energy 
+instability over time, particularly when collisions are disabled. 
+This is primarily due to numerical integration error and 
+sensitivity to timestep size. The program also becomes unstable 
+when ~200 or more bodies are simulated at once. 
